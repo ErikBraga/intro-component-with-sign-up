@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro component with sign up form</title>
+  <!-- style & icon -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <main class="left">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </main>
+
+    <section class="right">
+      <div class="right-top">
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+      <div class="right-bottom">
+        <div class="input">
+          <input class="fname-input no-margin" type="text" placeholder="First Name">
+          <img class="icon-error hidden" src="images/icon-error.svg" alt="error-icon">
+          <div class="invalid hidden"><p><em>First Name cannot be empty</em></p></div>
+        </div>
+
+        <input class="lname-input" type="text" placeholder="Last Name">
+        <img class="icon-error hidden" src="images/icon-error.svg" alt="error-icon">
+        <div class="invalid hidden"><p><em>Last Name cannot be empty</em></p></div>
+
+        <input class="email-input" type="text" placeholder="Email Address">
+        <img class="icon-error hidden" src="images/icon-error.svg" alt="error-icon">
+        <div class="invalid hidden"><p><em>Looks like this is not an email</em></p></div>
+
+        <input class="password-input" type="text" placeholder="Password">
+        <img class="icon-error hidden" src="images/icon-error.svg" alt="error-icon">
+        <div class="invalid hidden"><p><em>Password cannot be empty</em></p></div>
+
+        <button class="trial-container">
+          <p>Claim your free trial</p>
+        </button>
+
+        <p class="terms-alert">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+    </section>
+  </div> <!-- fechamento container-->
+</body>
+</html>
