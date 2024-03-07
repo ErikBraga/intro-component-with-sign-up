@@ -153,6 +153,10 @@ body{
     color: #FFF;
 }
 
+.trial-button:hover{
+    background-color: #69daa7;
+}
+
 .terms-alert{
     font-size: 0.7rem;
 }
